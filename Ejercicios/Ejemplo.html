@@ -3,36 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio de Presentación</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-        }
-        button:hover {
-            background-color: #45a049;
-        }
-    </style>
+    <title>Mi Presentación</title>
+    <link rel="stylesheet" href="clase1.css">
 </head>
 <body>
-    <h1>Bienvenido al ejercicio de presentación</h1>
-    <p>Haz clic en el siguiente botón para ver el mensaje en la consola:</p>
-    <button onclick="activarBoton()">Haz clic aquí</button>
+    <header>
+        <h1 id="fullName">Adrián Vitos Parra</h1>
+    </header>
+    
+    <button id="changeNameButton">Haz clic</button>
 
-    <script>
-        function activarBoton() {
-            console.log("¡El botón ha sido activado!");
-        }
-    </script>
+    <p>Estoy en clase de Lenguaje de Marca</p>
+
+    <main>
+        <section class="recuadro">
+            <h2>Sobre mí</h2>
+            <p>Hola, soy Adrián y esta es mi presentación.</p>
+        </section>
+        <section class="recuadro">
+            <h2>Temas a tratar</h2>
+            <ul>
+                <li>Introducción</li>
+                <li>Experiencia</li>
+                <li>Proyectos</li>
+                <li>Conclusión</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Gracias por tu atención.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
