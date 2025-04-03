@@ -10,5 +10,5 @@ changeColorNameButton.addEventListener('click', () => {
     const currentColor = window.getComputedStyle(fullName).color;
 
     // Cambiar el color entre negro y rojo
-    fullName.style.color = (currentColor === 'rgb(255, 235, 119)') ? 'blue' : 'rgb(255, 235, 119)';
+    fullName.style.color = (currentColor === 'rgb(20, 35, 238)') ? 'blue' : 'rgb(74, 68, 131)';
 });
