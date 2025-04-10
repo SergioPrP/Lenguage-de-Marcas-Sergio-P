@@ -1,13 +1,13 @@
 <h1 id="title">Click Me</h1>
 <button id="myButton">Click Me</button>
 <script>
-  const button = document.getElementById("myTitle");
+  const button = document.getElementById("myButton"); // Corregí el ID al botón correcto
+  const title = document.getElementById("title"); // Agregué referencia al título
+
   button.addEventListener("click", function () {
-    button.textContent = "Clicked!";
+    title.textContent = "Clicked!"; // Cambia el texto del título
   });
 
-
   // TODO: Fix the error and add
-  // the functionality to change the titel to "Clicked!"
-
+  // the functionality to change the title to "Clicked!" - Corregido
 </script>
