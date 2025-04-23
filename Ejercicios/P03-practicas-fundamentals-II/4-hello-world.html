@@ -9,10 +9,14 @@
 
 <body>
   <h1>Hola Mundo</h1>
-  <p></p>
+  <p id="helloParagraph"></p>
   <script>
-    // TODO: Add Hello world in console log, in an alert and also in the <p> tag from javascript
+    console.log("Hello World");
 
+    alert("Hello World");
+
+    const paragraph = document.getElementById("helloParagraph");
+    paragraph.textContent = "Hello World";
   </script>
 </body>
 
